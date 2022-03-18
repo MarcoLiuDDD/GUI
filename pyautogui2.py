@@ -10,3 +10,10 @@ pyautogui.scroll(500) # scroll wheel
 # .mouseUp, mouse.Down, hold button draw
 # .dragRel, drag relative
 
+# keyboard functions
+pyautogui.write("hello")
+pyautogui.press("enter") # press keyboard
+
+# screenshot
+pyautogui.screenshot("name.png") # save picture
+
